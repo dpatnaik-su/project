@@ -2,46 +2,53 @@
 <html lang="en">
     <head>
         <title>Wage Gap Statistics</title>
-</head>
+        <link rel="stylesheet" href="statistics.css">
+    </head>
     
 <body>
-    <nav>
-        <i class="fa fa-home"></i>&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;Statistics&nbsp;&nbsp;&nbsp;Spotlights
-    </nav>
-    <h1>Wage Gap Statistics</h1>
-    <header>The Facts</header>
-  
-    <main>
-        <!--create a flex box on the right side of the page-->
-        <p> <h2>Common Myths</h2>
-            “The pay gap is closing fast.”
+    <div class= "navbar">
+        <ul>
+         <li><a href= "title-page.html">Home</a></li>
+         <li><a href= "statistics-page.html">Statistics</a></li>
+         <li><a href= "spotlight-page.html">Spotlights</a></li>
+         </ul>
+     </div>
+  <h1>Wage Gap Statistics</h1>
+   <!--create a flex box on the right side of the page-->
+   <main class="flex-container" style="margin: 1em 1.5em 1em 1em;">
+    <div class="bargraph">  
+        <div> <img src="bargraph.jpg" alt="bar graph" width="600" height= "400"/> </div>  
+    </div>
+    <div class="myths" style="padding:1em;">
+        <p> <h2>Common Myths</h2>  
+            <div>“The pay gap is closing <bold>fast</bold>.”</div>
             <br>
-            “The Lilly Ledbetter Fair Pay Act has solved the problems of a wage gap.”
+            <div>“The Lilly Ledbetter Fair Pay Act has <bold>solved</bold> the problems of a wage gap.”</div>
             <br>
-            “Women aren’t assertive enough to ask for raises.”
+            <div>“Women aren’t assertive enough to ask for raises.”</div>
             <br>
-            “Women earn less because they take time off for motherhood.”
+            <div>Women earn less because they take time off for motherhood.”</div>
             <br>
-            “Saying women make 77 cents to every dollar a man makes is an exaggeration.”
+            <div>“Saying women make 77 cents to every dollar a man makes is an exaggeration.”</div>
             <br>
-            “Women choose lower-paying careers than men so it’s understandable they make less money.”
+            <div>“Women choose lower-paying careers than men so it’s understandable they make less money.”</div>
             <br>
-            <img src="bargraph.jpg" alt="bar graph"/>
-     </p>
+        </div>
+    </p>
     </main>
-    <section>
         <!--create flex box with border for width -->
-        <h2>Where the Gender Pay Gap is Most Pronounced</h2>
-        South Korea 36.6%
-        Japan 26.6%
-        Netherlands 20.5%
-        Turkey 20.1%
-        Canada 19.2%
-        Australia 18.0%
-        United States 17.9%
-        <img src="worldmap.jpg" alt="world map" />
-        <!--create a timeline visual for the important events of the wage gap-->
-        <img src="timeline.png" alt="timeline" />
+    <section class="flex-container"style="margin: 1em 1.5em 1em 1em;">
+        <div class="countries"style="margin: 1em 1.5em 1em 1em;">
+            <h2>Where the Gender Pay Gap is Most <em>Pronounced</em>
+        </h2>
+        <p>text about pay gap around the world</p>
+        </div>
+        <div class="map" style="margin: 1em 1.5em 1em 1em;">
+        <img src="map (1).jpg" alt="world map" width= 100% />
+        </div>
     </section>
+        <!--create a timeline visual for the important events of the wage gap-->
+        <h2>Timeline of Gender Pay Gap Progress</h2>
+        <img src="timeline.png" alt="timeline" width=100%/>
 </body>
 </html>
