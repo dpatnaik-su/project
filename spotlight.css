@@ -1,92 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); 
 
-.navbar{
-    overflow: hidden;
-    background-color:whitesmoke;
-    position: fixed;
-    top: 0; 
-    width: 100%;
-    margin: 0 auto;
-    padding: 1em
-    
-}
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: whitesmoke;
-}
-li{
-    margin: 10px;
-    width: 120px;
-    float: left;
-    margin-left: 2px;
-}
-li a{
-    display: block;
-    text-align: center;
-    padding: 3px;
-    text-decoration:none;
-    width: 150 px;
-}
-li a:hover{
-    background-color:rgb(77, 182, 182);
-    color: whitesmoke;
-}
-body{
-    height: 100%;
-    width: 100%;
-    font-family: 'montserrat', sans-serif;
-    background-color: whitesmoke; 
-    text-align: center;
-}
 h1{
-    padding-top: 70px;
-    height: 50px;
     background-color: rgb(77, 182, 182);
     color: whitesmoke;
-
+    margin-top: 50px;
 }
-header {
-    color: black;
-    font-style: italic;
-    font-size: 20px;
-    text-align: center;
-}
-h2{
+h2{  
+    font-size: 30px;
     text-align: center;
     background-color: rgb(77, 182, 182);
     width: 100% ;
     color: whitesmoke;
+    margin-top: 50px;
 }
+.jumbo{
+    width: 100%;
+    margin: 0 auto;
+    padding: 5em;
+}
+
+.index-quote{
+    color:rgb(77, 182, 182);
+    font-weight: 500;
+}
+
+#quote{
+    background-image: url(playingcards.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
 .card{
     box-shadow:0 4px 8px 0 rgb(77, 182, 182) ;
     transition: 0.3s;
     width: 300px;
     height: 500px;
     display: block;
-    padding: 30px;
     background-color: whitesmoke;
 }
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgb(77, 182, 182);
+    box-shadow: 0 10px 20px 0 rgb(77, 182, 182);
 }
-.container {
+.container-fluid {
     padding: 2px 16px;
 }
 
-.column {
-    float: left;
-    width: 25%;
-    padding: 50px;
-}
-.row {
-    margin: 0 -5px;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.p-2{
+    margin: 30px;
 }
