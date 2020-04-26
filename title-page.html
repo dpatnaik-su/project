@@ -2,61 +2,98 @@
 <html lang="en">
     <head>
         <title>Gender Wage Gap</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="title.css">
+        <link rel="stylesheet" href="base.css">
     </head>
 
 <body>
-    <div class= "navbar">
-       <ul>
-        <li><a href= "title-page.html">Home</a></li>
-        <li><a href= "statistics-page.html">Statistics</a></li>
-        <li><a href= "spotlight-page.html">Spotlights</a></li>
-        </ul>
+    <header>
+    <div class= "navbar sticky">
+        <nav class="top-nav">
+            <ul>
+                <li><a href= "title-page.html">Home</a></li>
+                <li><a href= "statistics-page.html">Statistics</a></li>
+                <li><a href= "spotlight-page.html">Spotlights</a></li>
+            </ul>
+        </nav>
     </div>
-    <main class="container" style="margin: 2em 1.5em 1 em 1 em">
-        <div class=cover style="margin: 2em 1.5em 1 em 1 em">
-            <img src="cover.jpg" alt="divide" style="width:100%" height="600"> </div>
+    <!--
+    <div class="banner-container" style="margin: 2em 1.5em 1em 1em;">
+        <img src="cover.jpg" alt="divide" style="float: right;">
         <div class="top-left"> <h1>Gender Wage Gap</h1>
-            <header>Yes, it's real.</header></div>
-    </main>
+          Yes, it's real.
         </div>
+    </div>
+    -->
+    <div class="container-fluid padding" id="title">
+        <section class="row jumbo">
+           <aside class="col-12">
+                <h1 class="display-4 index-quote">The Gender Wage Gap</h1>
+            </aside>
+
+        </section>
+        </div>
+    </header>
+    <main>
         <section class="background">
-            <div class="definition" style="margin:2em 1.5em 1 em 1 em">
+            <div class="definition" style="margin:2em 1.5em 1em 1em;">
             <h2>Pay Gap</h2>
                 <p> <h3> noun[ C, usually singular ]   HR, WORKPLACE UK  US (also wage gap); (wage differential)</h3>
                 <br> 
                 the difference between the average pay of two different groups of people, for example men and women 
-                <br>
-                Earnings Ratio= Women's Median Earnings/Men's Median Earnings
             </div>
-        <!--Create a box around "The Problem"-->
             <div class="problem">
             <h2>The Problem</h2>
             <p>Women are not only almost half the workforce, they are also the sole breadwinner in half of American families with children. However, on average, women earn less than men in almost every single occupation. According to research done by the IWPR, if change continues at the same pace it has done for the past 50 years, women will reach pay parity in 2059 (40 years).</p>
             </div>
         </section> 
-        <h2>Organizations for the Cause</h2>
-        <section class="flex container">
-            <div class="col" style="padding: 1em">
-                <div><a href="https://nwlc.org/"><img src="nwlc.jpg" alt="National Women's Law Center (NWLC)" width="300" height= "200"/></a></div>
-        <br>
-                <div class="col" style="padding: 1em;">
-                <div><a href="https://www.unwomen.org/en"><img src="unwomen.png" alt=" UN Women"width="300" height= "200"/></a></div>
-        <br>
-                <div class="col" style="padding: 1em;">
-                <div><a href="https://iwpr.org/"><img src="iwpr.jpg" alt="Institute for Women's Policy Research (IWPR)"width="300" height= "200"/></a></div>
+        <div class="container-fluid padding" id="quote">
+        <section class="row jumbo text-center">
+            <aside class="col-12">
+                <h3 class="display-4 index-quote">Earnings Ratio= 
+                    <br>
+                    Women's Median Earnings/Men's Median Earnings</h3>
+            </aside>
         </section>
-        <br>
-        <section class="flex-container">
-                <div class="row" style="padding: 1em;">
-                <div><a href="http://www.equalpaytoday.org/"><img src="equalpaytoday.jpg" alt="  Equal Pay Today"width="300" height= "200"/></a></div>
-        <br>
-                <div class="row" style="padding: 1em;">
-                <div><a href="https://www.equalpayinternationalcoalition.org/"><img src="equalpayinternational.jpg" alt="Equal Pay International Coalition" width="300" height= "200"/></a></div>
-        <br>
-                <div class="row" style="padding: 1em;">
-                <div><a href="https://www.aauw.org/"><img src="aauw.jpg" alt="American Association of University Women (AAUW)" width="300" height= "200"/></a></div>
+        </div>
+            <h2>Organizations for the Cause</h2>
+        <section style="display: flex; width: 1000px; margin: 0 auto;">
+            <div style="flex: 1; padding: 1em">
+                <div><a href="https://nwlc.org/"><img src="nwlc.jpg" alt="National Women's Law Center (NWLC)" width="300" height= "200" class="responsive"/></a></div>
+            </div>
+            <div style="flex: 1; padding: 1em;">
+                <div><a href="https://www.unwomen.org/en"><img src="unwomen.png" alt="UN Women" width="300" height= "200" class="responsive"/></a></div>
+            </div>
+            <div style="flex: 1; padding: 1em;">
+                <div><a href="https://iwpr.org/"><img src="iwpr.jpg" alt="Institute for Women's Policy Research (IWPR)" width="300" height= "200" class="responsive"/></a></div>
+            </div>
+        </section>
+        <section style="display: flex; width: 1000px; margin: 0 auto;">
+            <div style="flex: 1; padding: 1em;">
+                <div><a href="http://www.equalpaytoday.org/"><img src="equalpaytoday.jpg" alt="Equal Pay Today" width="300" height= "200" class="responsive"/></a></div>
+            </div>
+            <div style="flex: 1; padding: 1em;">
+                <div><a href="https://www.equalpayinternationalcoalition.org/"><img src="equalpayinternational.jpg" alt="Equal Pay International Coalition" width="300" height= "200" class="responsive"/></a></div>
+                </div>
+             <div style="flex: 1; padding: 1em;">
+                <div><a href="https://www.aauw.org/"><img src="aauw.jpg" alt="American Association of University Women (AAUW)" width="300" height= "200" class="responsive"/></a></div>
+            </div>
        </section>
     </main>
+    <footer>
+        <div class="container-fluid padding">
+        <div class="row align-items-center text-center justify-content-center">
+            <div class="col-md-4">
+                <hr class="light">
+                <p>Dibya Patnaik</p>
+                <p>dpatnaik@syr.edu</p>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body> 
 </html>
